@@ -31,7 +31,14 @@ const Header = ({ siteTitle }) => (
           color: "#000000",
         }}
       >
-        Hi, my name is <span style={{ color: "#34e0d2" }}>Darren</span>
+        Hi, my name is{" "}
+        <span
+          style={{
+            color: "#34e0d2",
+          }}
+        >
+          Darren
+        </span>
       </p>
 
       <p
@@ -43,7 +50,7 @@ const Header = ({ siteTitle }) => (
           fontFamily: "Quicksand",
         }}
       >
-        I'm an aspiring Software Engineer
+        I'm an aspiring Software Engineer.
       </p>
     </div>
   </header>

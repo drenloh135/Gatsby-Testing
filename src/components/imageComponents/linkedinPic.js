@@ -13,10 +13,10 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-const GithubPic = () => {
+const LinkedInPic = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "github.png" }) {
+      placeholderImage: file(relativePath: { eq: "LinkedIn.png" }) {
         childImageSharp {
           fluid(maxWidth: 200) {
             ...GatsbyImageSharpFluid_noBase64
@@ -40,4 +40,4 @@ const GithubPic = () => {
   )
 }
 
-export default GithubPic
+export default LinkedInPic

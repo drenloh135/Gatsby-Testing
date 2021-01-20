@@ -1,21 +1,31 @@
 .mainBody {
   background-color: #34e0d2;
   width: 100%;
-  padding: 3rem;
+  padding: 5rem;
 }
 
+.text {
+  font-family: Quicksand;
+  text-align: center;
+  color: #1e2120;
+  font-size: 35px;
+}
 .sectionBody {
   padding: 3rem;
+  text-align: center;
 }
 
 .buttons {
   background-color: #383b3a;
   padding: 1rem 2rem;
   margin: 0 auto;
-  max-width: 250px;
+  width: 250px;
   text-align: center;
   font-family: Quicksand;
   border-radius: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
 }
 
 .buttons:hover {
@@ -25,12 +35,6 @@
   animation-timing-function: ease-in-out;
 
   /* transform: scale(1.1); */
-}
-
-.buttonText {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 25px;
 }
 
 @keyframes shake {
